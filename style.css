@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+#content {
+    height: 750px;
+    width: 550px;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 16px;
+    padding: 5px;
+}
+
+#header {
+    overflow: hidden;
+}
+
+img {
+    max-width: 550px;
+}
+
+.fa-ellipsis-v {
+    float: right;
+    padding: 15px;
+    font-size: 35px;
+}
+
+.fa-html5 {
+    float: left;
+    padding: 15px;
+    font-size: 35px;
+}
+
+#icons {
+    font-size: 40px;
+    padding: 15px;
+}
+
+.fa-bookmark {
+    float: right;
+    margin-right: 5px;
+}
+
+#caption {
+    padding: 15px;
+}
